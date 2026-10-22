@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090713">
+<title>VYBORA — Create. Connect. Rise.</title>
+<style>
+:root{--bg:#090713;--panel:#151126;--panel2:#1d1733;--text:#f8f5ff;--muted:#b8b0d0;--purple:#a855f7;--blue:#48d9ff;--gold:#ffd777;--line:rgba(255,255,255,.1)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,rgba(117,45,190,.23),transparent 34%),radial-gradient(ellipse at 0% 30%,rgba(33,157,207,.12),transparent 35%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}.wrap{width:min(1120px,92%);margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:1px solid var(--line)}.brand{font-weight:950;letter-spacing:2px;font-size:1.35rem}.brand span{color:var(--blue)}.navlinks{display:flex;gap:22px;color:var(--muted);font-size:.92rem}.navlinks a:hover{color:white}.pill{display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(72,217,255,.45);border-radius:999px;padding:10px 16px;background:rgba(72,217,255,.08);color:#dffaff;font-weight:750}.hero{padding:76px 0 48px;display:grid;grid-template-columns:1.1fr .9fr;gap:38px;align-items:center}.eyebrow{display:inline-flex;gap:8px;align-items:center;color:var(--gold);font-size:.78rem;font-weight:800;letter-spacing:2px;text-transform:uppercase}.dot{height:7px;width:7px;border-radius:50%;background:var(--blue);box-shadow:0 0 14px var(--blue)}h1{font-size:clamp(2.8rem,7vw,5.4rem);line-height:.98;letter-spacing:-3px;margin:18px 0}.gradient{background:linear-gradient(95deg,#fff 5%,#cda4ff 45%,#58e5ff 90%);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:1.08rem;line-height:1.75;color:var(--muted);max-width:570px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{border:0;border-radius:14px;padding:14px 20px;font-weight:850;color:#10091b;background:linear-gradient(100deg,var(--gold),#ffb4ec);box-shadow:0 8px 30px rgba(168,85,247,.2)}.btn.secondary{color:var(--text);background:rgba(255,255,255,.04);border:1px solid var(--line);box-shadow:none}.visual{min-height:350px;position:relative;display:grid;place-items:center}.orbit{width:min(330px,80vw);aspect-ratio:1;border-radius:50%;border:1px solid rgba(72,217,255,.34);display:grid;place-items:center;box-shadow:0 0 65px rgba(168,85,247,.13),inset 0 0 60px rgba(72,217,255,.05);position:relative}.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid rgba(168,85,247,.42);border-radius:50%;inset:23px;transform:rotate(-24deg) scaleX(.72)}.orbit:after{inset:48px;transform:rotate(35deg) scaleX(.72);border-color:rgba(255,215,119,.4)}.core{width:155px;height:155px;border-radius:34px;display:grid;place-items:center;background:linear-gradient(140deg,#a855f7,#4a2f8f 55%,#152a55);box-shadow:0 0 65px rgba(168,85,247,.42);font-size:2.2rem;font-weight:1000;letter-spacing:-2px;transform:rotate(-8deg)}.float{position:absolute;padding:12px 15px;border-radius:14px;background:rgba(21,17,38,.9);border:1px solid var(--line);box-shadow:0 12px 40px #0005;font-size:.85rem}.float b{display:block;color:var(--blue);font-size:1rem}.f1{top:12%;right:0}.f2{bottom:14%;left:0}.section{padding:38px 0 56px}.sectionhead{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:22px}.sectionhead h2{font-size:clamp(1.7rem,4vw,2.5rem);margin:7px 0}.sectionhead p{color:var(--muted);margin:0;max-width:460px;line-height:1.6}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:22px;padding:23px;background:linear-gradient(145deg,rgba(29,23,51,.92),rgba(14,11,26,.95));min-height:220px}.card:after{content:"";position:absolute;width:130px;height:130px;border-radius:50%;filter:blur(55px);opacity:.22;right:-40px;top:-40px;background:var(--glow,var(--purple))}.icon{width:48px;height:48px;border-radius:15px;display:grid;place-items:center;background:rgba(255,255,255,.06);font-size:1.45rem;border:1px solid var(--line)}.card h3{font-size:1.25rem;margin:18px 0 8px}.card p{color:var(--muted);line-height:1.6;margin:0 0 20px}.card a{font-weight:800;color:var(--blue)}.challenge{--glow:#ffbf49}.social{--glow:#4edfff}.earn{--glow:#c56aff}.banner{margin:0 0 56px;padding:26px;border:1px solid rgba(255,215,119,.25);border-radius:22px;background:linear-gradient(110deg,rgba(255,215,119,.09),rgba(168,85,247,.1));display:flex;align-items:center;justify-content:space-between;gap:20px}.banner h3{margin:0 0 7px;font-size:1.3rem}.banner p{margin:0;color:var(--muted);line-height:1.5}.footer{border-top:1px solid var(--line);padding:25px 0 34px;color:var(--muted);font-size:.86rem;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}.notice{display:none;margin-top:14px;color:var(--gold);font-size:.9rem}.notice.show{display:block}.mobilemenu{display:none}
+@media(max-width:760px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding-top:52px;gap:15px}.visual{min-height:290px}.orbit{width:260px}.core{width:125px;height:125px}.cards{grid-template-columns:1fr}.card{min-height:0}.sectionhead{align-items:start;flex-direction:column}.banner{align-items:start;flex-direction:column}h1{letter-spacing:-2px}.f1{right:2%}.f2{left:0}}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <a class="brand" href="#home" aria-label="VYBORA home">VYB<span>O</span>RA</a>
+  <nav class="navlinks" aria-label="Main navigation"><a href="#social">Social</a><a href="#arena">Arena</a><a href="#earn">Opportunities</a></nav>
+  <a class="pill" href="#discover">Explore VYBORA ↗</a>
+</header>
+<main>
+<section class="wrap hero" id="home">
+  <div>
+    <div class="eyebrow"><span class="dot"></span> Your creativity. Your next level.</div>
+    <h1>Make your<br><span class="gradient">next move.</span></h1>
+    <p class="lead">A space for bold ideas, fresh talent, creative challenges and meaningful collaborations. Show what you can do — and discover what comes next.</p>
+    <div class="actions"><a class="btn" href="#discover">Explore the platform ↗</a><a class="btn secondary" href="#arena">Discover challenges</a></div>
+    <div class="notice" id="welcome" role="status">Welcome to VYBORA — your next idea starts here. ✨</div>
+  </div>
+  <div class="visual" aria-label="VYBORA futuristic brand artwork">
+    <div class="orbit"><div class="core">V.</div></div>
+    <div class="float f1"><b>CREATE ✦</b>Bring your ideas to life</div>
+    <div class="float f2"><b>CONNECT ◈</b>Find your people</div>
+  </div>
+</section>
+<section class="wrap section" id="discover">
+  <div class="sectionhead"><div><div class="eyebrow">One platform. More possibilities.</div><h2>Find your <span class="gradient">VYBORA.</span></h2></div><p>Choose a path, explore what’s possible, and keep an eye out as new features are added.</p></div>
+  <div class="cards">
+    <article class="card social" id="social"><div class="icon">✦</div><h3>VYBORA SOCIAL</h3><p>Discover creative ideas, share your work and connect with a community of makers.</p><a href="#coming-social" data-feature="Social">Explore Social ↗</a></article>
+    <article class="card challenge" id="arena"><div class="icon">🏆</div><h3>VYBORA ARENA</h3><p>Take on creative challenges, showcase your talent and celebrate fresh ideas.</p><a href="#coming-arena" data-feature="Arena">Explore Arena ↗</a></article>
+    <article class="card earn" id="earn"><div class="icon">✧</div><h3>VYBORA OPPORTUNITIES</h3><p>Discover collaboration ideas and learn about future creator and sponsor opportunities.</p><a href="#coming-opportunities" data-feature="Opportunities">Explore opportunities ↗</a></article>
+  </div>
+</section>
+<section class="wrap banner">
+  <div><h3>A big idea deserves a bold beginning.</h3><p>VYBORA is growing. More community features are on the way.</p></div>
+  <button class="btn" id="joinBtn" type="button">I'm ready ✨</button>
+</section>
+</main>
+<footer class="wrap footer"><a class="brand" href="#home">VYB<span>O</span>RA</a><span>Built for creativity, connection and possibility.</span><span>© <span id="year"></span> VYBORA</span></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+function showWelcome(){const n=document.getElementById('welcome');n.classList.add('show');n.scrollIntoView({behavior:'smooth',block:'center'});}
+document.getElementById('joinBtn').addEventListener('click',showWelcome);
+document.querySelectorAll('[data-feature]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const n=document.getElementById('welcome');n.textContent='Thanks for exploring VYBORA '+a.dataset.feature+'! This section is a preview; full interactive features are still being built.';n.classList.add('show');n.scrollIntoView({behavior:'smooth',block:'center'});}));
+</script>
+</body>
+</html>
